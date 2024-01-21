@@ -5,9 +5,9 @@ let CONFIG = {
   titleAppend: '[MC+]',
   idAppend: false,
 
-  maxDownloadItemPerFeed: 5,
+  maxDownloadItemPerFeed: 50,
   maxDownloadFeed: 50,
-  newArrialMax: 5,
+  newArrialMax: 50,
   maxDownloadItems: 100,
   maxExcutionMinutes: 10,
 
