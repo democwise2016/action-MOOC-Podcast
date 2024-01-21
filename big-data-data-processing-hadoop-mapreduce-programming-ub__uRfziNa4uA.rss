@@ -1,0 +1,73 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+  <channel>
+    <title><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化]]></title>
+    <link>https://www.youtube.com/watch?v=_uRfziNa4uA</link>
+    <image>
+      <url>https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg</url>
+      <title>大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化</title>
+      <link>https://www.youtube.com/watch?v=_uRfziNa4uA</link>
+    </image>
+    <language>en-us</language>
+    <atom:link href="https://www.youtube.com/watch?v=_uRfziNa4uA" rel="self" type="application/rss+xml"/>
+    <copyright><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化]]></copyright>
+    <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化]]></itunes:author>
+    <itunes:summary>
+      <![CDATA[
+      <a href="https://www.youtube.com/watch?v=_uRfziNa4uA" target="_blank">https://www.youtube.com/watch?v=_uRfziNa4uA</a><br />
+<br />
+<a href="https://www.youtube.com/watch?v=_uRfziNa4uA" target="_blank">https://www.youtube.com/watch?v=_uRfziNa4uA</a>
+      ]]>
+    </itunes:summary>
+    <description>
+      <![CDATA[
+      <a href="https://www.youtube.com/watch?v=_uRfziNa4uA" target="_blank">https://www.youtube.com/watch?v=_uRfziNa4uA</a><br />
+<br />
+<a href="https://www.youtube.com/watch?v=_uRfziNa4uA" target="_blank">https://www.youtube.com/watch?v=_uRfziNa4uA</a>
+      ]]>
+    </description>
+    <itunes:owner>
+      <itunes:name><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化]]></itunes:name>
+    </itunes:owner>
+    <itunes:image href="https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg"/>
+<item>
+      <title><![CDATA[12.29]1. 1-1 為何要 Hadoop? ewantvideo]]></title>
+      <itunes:title><![CDATA[12.29]1. 1-1 為何要 Hadoop? ewantvideo]]></itunes:title>
+      <itunes:author><![CDATA[大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化]]></itunes:author>
+      <itunes:summary>
+        <![CDATA[1. 1-1 為何要 Hadoop? ewantvideo
+
+https://www.youtube.com/watch?v=_uRfziNa4uA
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化
+<a href="https://www.youtube.com/watch?v=_uRfziNa4uA"><img src="https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/0.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/1.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/2.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/3.jpg" /></a>]]>
+      </itunes:summary>
+      <description>
+        <![CDATA[1. 1-1 為何要 Hadoop? ewantvideo
+
+https://www.youtube.com/watch?v=_uRfziNa4uA
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化
+<a href="https://www.youtube.com/watch?v=_uRfziNa4uA"><img src="https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/0.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/1.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/2.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/3.jpg" /></a>]]>
+      </description>
+      <content:encoded><![CDATA[<pre>1. 1-1 為何要 Hadoop? ewantvideo
+
+https://www.youtube.com/watch?v=_uRfziNa4uA
+大數據資料處理-Hadoop MapReduce 程式設計與資料視覺化<br />
+<a href="https://www.youtube.com/watch?v=_uRfziNa4uA"><img src="https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/0.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/1.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/2.jpg" />
+<img src="https://img.youtube.com/vi/_uRfziNa4uA/3.jpg" /></a></pre>]]></content:encoded>
+      <itunes:image href="https://img.youtube.com/vi/_uRfziNa4uA/maxresdefault.jpg"/>
+      <enclosure url="https://democwise2016.github.io/action-MOOC-Podcast/big-data-data-processing-hadoop-mapreduce-programming-ub__uRfziNa4uA/20171017-_uRfziNa4uA.mp3" type="audio/mpeg" length="796" />
+      <itunes:duration>796</itunes:duration>
+      <guid isPermaLink="false">https://democwise2016.github.io/action-MOOC-Podcast/big-data-data-processing-hadoop-mapreduce-programming-ub__uRfziNa4uA/20171017-_uRfziNa4uA.mp3</guid>
+      <pubDate>2020-12-29</pubDate>
+    </item></channel>
+</rss>
