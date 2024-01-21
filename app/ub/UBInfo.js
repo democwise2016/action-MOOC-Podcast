@@ -21,6 +21,11 @@ const TorController = require('../lib/TorController.js')
 class UBInfo {
   
   load (url) {
+    if (!url) {
+      console.trace("URL is undefined")
+      return false
+    }
+
     if (url.indexOf('www.y' + 'out' + 'ube.com/channel/') > -1 || url.indexOf('www.y' + 'out' + 'ube.com/@') > -1) {
       return this.loadChannel(url)
     }

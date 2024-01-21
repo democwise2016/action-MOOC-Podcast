@@ -34,6 +34,9 @@ module.exports = function () {
     let filename = OutputFeedFilenameBuilder(feedItem)
       
     let outputFeedURL = publicURL + filename + '.rss'
+    if (Array.isArray(homepageURL)) {
+      homepageURL = homepageURL[0].url
+    }
     body.push(`<li>
       <a href="${outputFeedURL}" target="_blank">${title}</a>
       (<a href="${homepageURL}" target="_blank">source</a>)

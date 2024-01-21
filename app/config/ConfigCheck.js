@@ -10,7 +10,10 @@ module.exports = function (CONFIG) {
     let feedItem = CONFIG.feedList[i]
   
     if (!feedItem.feedURL && feedItem.homepageURL) {
-      if (feedItem.homepageURL.startsWith('https://www.youtube.com/channel/')) {
+      if (Array.isArray(feedItem.homepageURL)) {
+        feedItem.feedURL = feedItem.homepageURL
+      }
+      else if (feedItem.homepageURL.startsWith('https://www.youtube.com/channel/')) {
         let id = feedItem.homepageURL.split('/').slice(-1)[0]
         feedItem.feedURL = 'https://www.youtube.com/feeds/videos.xml?channel_id=' + id
       }
@@ -32,6 +35,15 @@ module.exports = function (CONFIG) {
     }
     else {
       feedItem.thumbnailBorderColor = CONFIG.thumbnailBorderColor
+    }
+
+    if (!feedItem.url && feedItem.homepageURL) {
+      // feedItem.thumbnailBorderColor = StringToRGBColorCode(feedItem.title)
+      let url = feedItem.homepageURL
+      if (Array.isArray(url)) {
+        url = url[0].url
+      }
+      feedItem.url = url
     }
     // console.log(feedItem.thumbnailBorderColor)
 

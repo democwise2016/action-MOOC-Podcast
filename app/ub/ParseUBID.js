@@ -1,6 +1,10 @@
 const URL = require('url')
 
 module.exports = function (url) {
+  if (Array.isArray(url)) {
+    url = url[0].url
+  }
+
   let queryData = URL.parse(url, true).query
   // console.log(queryData)
   if (queryData.channel_id) {

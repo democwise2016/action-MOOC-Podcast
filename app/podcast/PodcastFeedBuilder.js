@@ -40,7 +40,12 @@ module.exports = async function (options) {
     options.link = options.feedLink
   }
   if (!options.url && options.feedUrl) {
-    options.url = options.feedUrl
+    let feedURL = options.feedUrl
+    if (Array.isArray(feedURL)) {
+      feedURL = feedURL[0].url
+    }
+
+    options.url = feedURL
   }
   
   if (options.description) {
@@ -55,11 +60,16 @@ module.exports = async function (options) {
   }
   
   if (options.feedURL) {
+    let feedURL = options.feedURL
+    if (Array.isArray(feedURL)) {
+      feedURL = feedURL[0].url
+    }
+
     options.description = options.description 
             + '<br />\n' 
             + '<br />\n' 
             //+ options.feedURL
-            + `<a href="${options.feedURL}" target="_blank">${options.feedURL}</a>`
+            + `<a href="${feedURL}" target="_blank">${feedURL}</a>`
   }
   
   //console.log(options)

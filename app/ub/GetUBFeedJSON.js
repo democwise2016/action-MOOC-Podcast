@@ -9,13 +9,31 @@ module.exports = async function (feedURL, options = {}) {
   } = options
 
   // return await NodeCacheSqlite.get('GetUBFeedJSON', feedURL, async function () {
-    console.log('get feed', feedURL, (new Date()).toISOString())
+    console.log('get feed', JSON.stringify(feedURL), (new Date()).toISOString())
 
     if (!parser) {
       parser = new Parser()
     }
 
-    let output = await parser.parseURL(feedURL)
+    let output
+    if (typeof(feedURL) === 'string') {
+      output = await parser.parseURL(feedURL)
+    }
+    else {
+      // output = await parser.parseURL(`https://www.youtube.com/feeds/videos.xml?playlist_id=PLbpi6ZahtOH40g4wyFnJmxVVlasfCUOW3`)
+      // console.log(output)
+      output = {
+        link: feedURL[0].url,
+        items: feedURL.map(item => {
+          return {
+            title: item.title,
+            link: item.url
+          }
+        })
+      }
+
+      console.log(output)
+    }
 
 
     if (output.link === feedURL) {
@@ -24,7 +42,11 @@ module.exports = async function (feedURL, options = {}) {
       // channelURL = 
     }
     if (!output.feedLink) {
-      output.feedLink = feedURL
+      let tmpFeedURL = feedURL
+      if (Array.isArray(tmpFeedURL)) {
+        tmpFeedURL = tmpFeedURL[0].url
+      }
+      output.feedLink = tmpFeedURL
       // channelURL = 
     }
 
