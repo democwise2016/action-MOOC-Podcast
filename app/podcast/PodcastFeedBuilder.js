@@ -2,15 +2,11 @@ const getRedirectedURL = require('./getRedirectedURL.js')
 const linkifyUrls = require('linkify-urls');
 
 const moment = require('moment')
-const CONFIG = require('./../../config-json.js')
+const CONFIG = require('./../../config.js')
 
 module.exports = async function (options) {
   let output = []
   
-  if (options.title) {
-    options.title = options.title + CONFIG.titleAppend
-  }
-
   if (!options.author) {
     options.author = options.title
   }
@@ -40,12 +36,7 @@ module.exports = async function (options) {
     options.link = options.feedLink
   }
   if (!options.url && options.feedUrl) {
-    let feedURL = options.feedUrl
-    if (Array.isArray(feedURL)) {
-      feedURL = feedURL[0].url
-    }
-
-    options.url = feedURL
+    options.url = options.feedUrl
   }
   
   if (options.description) {
@@ -60,16 +51,11 @@ module.exports = async function (options) {
   }
   
   if (options.feedURL) {
-    let feedURL = options.feedURL
-    if (Array.isArray(feedURL)) {
-      feedURL = feedURL[0].url
-    }
-
     options.description = options.description 
             + '<br />\n' 
             + '<br />\n' 
             //+ options.feedURL
-            + `<a href="${feedURL}" target="_blank">${feedURL}</a>`
+            + `<a href="${options.feedURL}" target="_blank">${options.feedURL}</a>`
   }
   
   //console.log(options)
@@ -139,31 +125,14 @@ ${channelDescription}`
       if (item.description) {
         item.description = item.description.trim().split('\\n').join('\n').trim()
       }
-
-      // ----------------------------------------------------------------
-
-      if (item.caption) {
-        item.description = `<hr style="clear:both" />
-
-${item.caption}
-
-<hr style="clear:both" />
-====
-` + item.description.split('\n').map(line => `<p>${line}</p>`).join('')
-      }
-
-      // ----------------------------------------------------------------
       
       let thumnails
       if (Array.isArray(item.thumbnails) === true && item.thumbnails.length > 0) {
-        thumnails = item.thumbnails.map((url, i) => {
-          if (i === 0) {
-            return `<p><a href="${item.link}"><img src="${url}" /></a></p><br /><p style="clear: both">`
-          }
-          return `<a href="${item.link}"><img src="${url}" /></a>`
-        }).join('')
+        thumnails = item.thumbnails.map(url => {
+          return `<img src="${url}" />`
+        }).join('\n')
         if (item.link) {
-          thumnails = `${thumnails}</p>`
+          thumnails = `<a href="${item.link}">${thumnails}</a>`
         }
       }
       
@@ -174,18 +143,18 @@ ${item.caption}
         })
       }
       
-      // if (!item.mediaURL && item.audioURL) {
-      //   item.mediaURL = item.audioURL
-      // }
+      if (!item.mediaURL && item.audioURL) {
+        item.mediaURL = item.audioURL
+      }
       
-      // if (!item.MIMEType && item.mediaURL) {
-      //   if (item.mediaURL.endsWith('.mp3')) {
-      //     item.MIMEType = 'audio/mpeg'
-      //   }
-      //   else if (item.mediaURL.endsWith('.mp4')) {
-      //     item.MIMEType = 'video/mp4'
-      //   }
-      // }
+      if (!item.MIMEType && item.mediaURL) {
+        if (item.mediaURL.endsWith('.mp3')) {
+          item.MIMEType = 'audio/mpeg'
+        }
+        else if (item.mediaURL.endsWith('.mp4')) {
+          item.MIMEType = 'video/mp4'
+        }
+      }
       
       let description = []
       let descriptionHTML = []
@@ -198,19 +167,25 @@ ${item.caption}
         descriptionHTML.push(linkifyUrls(item.description.split("\n").join("\n<br />")))
       }
       if (thumnails) {
-        description.unshift(thumnails)
-        descriptionHTML.unshift(thumnails)
+        description.push(thumnails)
+        descriptionHTML.push(thumnails)
       }
-
-      // -----------------------------
       
       let title = item.title
-      // let d = moment(item.date).format('M.D')
-      // title = '' + d + ']' + title
+
+      if (item.date[19] === '-') {
+        item.date = item.date.slice(0, 19) + '.000Z'
+      }
+  
+      if (item.date.length > 24) {
+        console.log({'error-date': item.date})
+      }
+
+      let d = moment(item.date).format('M.D')
+      title = '' + d + ']' + title
       
       output.push(`<item>
       <title><![CDATA[${title}]]></title>
-      <link>${item.link}</link>
       <itunes:title><![CDATA[${title}]]></itunes:title>
       <itunes:author><![CDATA[${item.author}]]></itunes:author>
       <itunes:summary>
@@ -219,8 +194,11 @@ ${item.caption}
       <description>
         <![CDATA[${description.join('\n')}]]>
       </description>
-      <content:encoded><![CDATA[${description.join('<br />\n')}]]></content:encoded>
+      <content:encoded><![CDATA[<pre>${description.join('<br />\n')}</pre>]]></content:encoded>
       <itunes:image href="${item.thumbnail}"/>
+      <enclosure url="${item.mediaURL}" type="${item.MIMEType}" length="${item.duration}" />
+      <itunes:duration>${item.duration}</itunes:duration>
+      <guid isPermaLink="false">${item.mediaURL}</guid>
       <pubDate>${item.date}</pubDate>
     </item>`)
     }

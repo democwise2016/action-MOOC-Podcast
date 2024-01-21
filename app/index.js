@@ -8,17 +8,12 @@ const PreventTerminate = require('./lib/PreventTerminate.js')
 
 // const sqliteStore = require('cache-manager-sqlite')
 // const cacheManager = require('cache-manager')
-// const NodeCacheSqlite = require('./lib/NodeCacheSqlite.js')
-// const CaptionDownloader = require('./ub/items/CaptionDownloader/CaptionDownloader.js')
+const NodeCacheSqlite = require('./lib/NodeCacheSqlite.js')
+
 // const UBMp3DownloaderWrapper = require('./ub/items/UBMp3Downloader/UBMp3DownloaderWrapper.js')
 
 let main = async () => {
-
-  // return await CaptionDownloader()
   // return await NodeCacheSqlite.set('test', 'a', 1, 1000 * 1000)
-
-
-  // ----------------------------------------------------------------
 
   EventEmitter()
   PreventTerminate()
@@ -117,7 +112,7 @@ let main = async () => {
     console.log(`[${i}/${feedList.length}]`, 'Checking ', feedList[i].title, feedList[i].feedFilename, new Date().toISOString())
     try {
       if (newArrial === false) {
-        await UBDownloader(feedList[i])
+        UBDownloader(feedList[i])
         runnerCount++
         if (runnerCount >= CONFIG.maxDownloadFeed) {
           // console.log('Exit new arrial mode')
@@ -128,7 +123,7 @@ let main = async () => {
       }
       else {
         if (fs.existsSync('/output/' + feedItem.feedFilename + '.rss') === false) {
-          await UBDownloader(feedList[i])
+          UBDownloader(feedList[i])
           runnerCount++
           console.log('new arrial', runnerCount, feedList[i].title, feedList[i].feedFilename)
           if (runnerCount >= CONFIG.newArrialMax) {
