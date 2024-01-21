@@ -1,0 +1,273 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:media="http://www.rssboard.org/media-rss" version="2.0">
+  <channel>
+    <title><![CDATA[Unix / Linux 作業系統實務]]></title>
+    <link>https://www.youtube.com/watch?v=fsZpBnEIJfE</link>
+    <image>
+      <url>https://img.youtube.com/vi/fsZpBnEIJfE/maxresdefault.jpg</url>
+      <title>Unix / Linux 作業系統實務</title>
+      <link>https://www.youtube.com/watch?v=fsZpBnEIJfE</link>
+    </image>
+    <language>en-us</language>
+    <atom:link href="https://www.youtube.com/watch?v=fsZpBnEIJfE" rel="self" type="application/rss+xml"/>
+    <copyright><![CDATA[Unix / Linux 作業系統實務]]></copyright>
+    <itunes:author><![CDATA[Unix / Linux 作業系統實務]]></itunes:author>
+    <itunes:summary>
+      <![CDATA[
+      <a href="https://www.youtube.com/watch?v=fsZpBnEIJfE" target="_blank">https://www.youtube.com/watch?v=fsZpBnEIJfE</a><br />
+<br />
+<a href="https://www.youtube.com/watch?v=fsZpBnEIJfE" target="_blank">https://www.youtube.com/watch?v=fsZpBnEIJfE</a>
+      ]]>
+    </itunes:summary>
+    <description>
+      <![CDATA[
+      <a href="https://www.youtube.com/watch?v=fsZpBnEIJfE" target="_blank">https://www.youtube.com/watch?v=fsZpBnEIJfE</a><br />
+<br />
+<a href="https://www.youtube.com/watch?v=fsZpBnEIJfE" target="_blank">https://www.youtube.com/watch?v=fsZpBnEIJfE</a>
+      ]]>
+    </description>
+    <itunes:owner>
+      <itunes:name><![CDATA[Unix / Linux 作業系統實務]]></itunes:name>
+    </itunes:owner>
+    <itunes:image href="https://img.youtube.com/vi/fsZpBnEIJfE/maxresdefault.jpg"/>
+<item>
+      <title><![CDATA[12.29]1. 01-1-1_基礎安裝-1 ewantvideo]]></title>
+      <itunes:title><![CDATA[12.29]1. 01-1-1_基礎安裝-1 ewantvideo]]></itunes:title>
+      <itunes:author><![CDATA[Unix / Linux 作業系統實務]]></itunes:author>
+      <itunes:summary>
+        <![CDATA[1. 01-1-1_基礎安裝-1 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=fsZpBnEIJfE"><img src="https://img.youtube.com/vi/fsZpBnEIJfE/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/0.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/1.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/2.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/3.jpg" /></a>]]>
+      </itunes:summary>
+      <description>
+        <![CDATA[1. 01-1-1_基礎安裝-1 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=fsZpBnEIJfE"><img src="https://img.youtube.com/vi/fsZpBnEIJfE/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/0.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/1.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/2.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/3.jpg" /></a>]]>
+      </description>
+      <content:encoded><![CDATA[<pre>1. 01-1-1_基礎安裝-1 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務<br />
+<a href="https://www.youtube.com/watch?v=fsZpBnEIJfE"><img src="https://img.youtube.com/vi/fsZpBnEIJfE/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/0.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/1.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/2.jpg" />
+<img src="https://img.youtube.com/vi/fsZpBnEIJfE/3.jpg" /></a></pre>]]></content:encoded>
+      <itunes:image href="https://img.youtube.com/vi/fsZpBnEIJfE/maxresdefault.jpg"/>
+      <enclosure url="https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-fsZpBnEIJfE.mp3" type="audio/mpeg" length="631" />
+      <itunes:duration>631</itunes:duration>
+      <guid isPermaLink="false">https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-fsZpBnEIJfE.mp3</guid>
+      <pubDate>2020-12-29</pubDate>
+    </item><item>
+      <title><![CDATA[12.28]2. 01-1-2_基礎安裝-2 ewantvideo]]></title>
+      <itunes:title><![CDATA[12.28]2. 01-1-2_基礎安裝-2 ewantvideo]]></itunes:title>
+      <itunes:author><![CDATA[Unix / Linux 作業系統實務]]></itunes:author>
+      <itunes:summary>
+        <![CDATA[2. 01-1-2_基礎安裝-2 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=BiPlDwfYiCg"><img src="https://img.youtube.com/vi/BiPlDwfYiCg/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/0.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/1.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/2.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/3.jpg" /></a>]]>
+      </itunes:summary>
+      <description>
+        <![CDATA[2. 01-1-2_基礎安裝-2 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=BiPlDwfYiCg"><img src="https://img.youtube.com/vi/BiPlDwfYiCg/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/0.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/1.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/2.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/3.jpg" /></a>]]>
+      </description>
+      <content:encoded><![CDATA[<pre>2. 01-1-2_基礎安裝-2 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務<br />
+<a href="https://www.youtube.com/watch?v=BiPlDwfYiCg"><img src="https://img.youtube.com/vi/BiPlDwfYiCg/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/0.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/1.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/2.jpg" />
+<img src="https://img.youtube.com/vi/BiPlDwfYiCg/3.jpg" /></a></pre>]]></content:encoded>
+      <itunes:image href="https://img.youtube.com/vi/BiPlDwfYiCg/maxresdefault.jpg"/>
+      <enclosure url="https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-BiPlDwfYiCg.mp3" type="audio/mpeg" length="606" />
+      <itunes:duration>606</itunes:duration>
+      <guid isPermaLink="false">https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-BiPlDwfYiCg.mp3</guid>
+      <pubDate>2020-12-28</pubDate>
+    </item><item>
+      <title><![CDATA[12.27]3. 01-1-3_基礎安裝-3 ewantvideo]]></title>
+      <itunes:title><![CDATA[12.27]3. 01-1-3_基礎安裝-3 ewantvideo]]></itunes:title>
+      <itunes:author><![CDATA[Unix / Linux 作業系統實務]]></itunes:author>
+      <itunes:summary>
+        <![CDATA[3. 01-1-3_基礎安裝-3 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=xeo7WjbEbis"><img src="https://img.youtube.com/vi/xeo7WjbEbis/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/0.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/1.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/2.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/3.jpg" /></a>]]>
+      </itunes:summary>
+      <description>
+        <![CDATA[3. 01-1-3_基礎安裝-3 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=xeo7WjbEbis"><img src="https://img.youtube.com/vi/xeo7WjbEbis/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/0.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/1.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/2.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/3.jpg" /></a>]]>
+      </description>
+      <content:encoded><![CDATA[<pre>3. 01-1-3_基礎安裝-3 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務<br />
+<a href="https://www.youtube.com/watch?v=xeo7WjbEbis"><img src="https://img.youtube.com/vi/xeo7WjbEbis/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/0.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/1.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/2.jpg" />
+<img src="https://img.youtube.com/vi/xeo7WjbEbis/3.jpg" /></a></pre>]]></content:encoded>
+      <itunes:image href="https://img.youtube.com/vi/xeo7WjbEbis/maxresdefault.jpg"/>
+      <enclosure url="https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-xeo7WjbEbis.mp3" type="audio/mpeg" length="996" />
+      <itunes:duration>996</itunes:duration>
+      <guid isPermaLink="false">https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-xeo7WjbEbis.mp3</guid>
+      <pubDate>2020-12-27</pubDate>
+    </item><item>
+      <title><![CDATA[12.26]4. 02-1_vi 編輯器 ewantvideo]]></title>
+      <itunes:title><![CDATA[12.26]4. 02-1_vi 編輯器 ewantvideo]]></itunes:title>
+      <itunes:author><![CDATA[Unix / Linux 作業系統實務]]></itunes:author>
+      <itunes:summary>
+        <![CDATA[4. 02-1_vi 編輯器 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=sq98btdoFTQ"><img src="https://img.youtube.com/vi/sq98btdoFTQ/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/0.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/1.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/2.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/3.jpg" /></a>]]>
+      </itunes:summary>
+      <description>
+        <![CDATA[4. 02-1_vi 編輯器 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=sq98btdoFTQ"><img src="https://img.youtube.com/vi/sq98btdoFTQ/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/0.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/1.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/2.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/3.jpg" /></a>]]>
+      </description>
+      <content:encoded><![CDATA[<pre>4. 02-1_vi 編輯器 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務<br />
+<a href="https://www.youtube.com/watch?v=sq98btdoFTQ"><img src="https://img.youtube.com/vi/sq98btdoFTQ/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/0.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/1.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/2.jpg" />
+<img src="https://img.youtube.com/vi/sq98btdoFTQ/3.jpg" /></a></pre>]]></content:encoded>
+      <itunes:image href="https://img.youtube.com/vi/sq98btdoFTQ/maxresdefault.jpg"/>
+      <enclosure url="https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-sq98btdoFTQ.mp3" type="audio/mpeg" length="373" />
+      <itunes:duration>373</itunes:duration>
+      <guid isPermaLink="false">https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-sq98btdoFTQ.mp3</guid>
+      <pubDate>2020-12-26</pubDate>
+    </item><item>
+      <title><![CDATA[12.25]5. 02-2-1_APT使用方式-1 ewantvideo]]></title>
+      <itunes:title><![CDATA[12.25]5. 02-2-1_APT使用方式-1 ewantvideo]]></itunes:title>
+      <itunes:author><![CDATA[Unix / Linux 作業系統實務]]></itunes:author>
+      <itunes:summary>
+        <![CDATA[5. 02-2-1_APT使用方式-1 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=THDexB-1uYU"><img src="https://img.youtube.com/vi/THDexB-1uYU/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/0.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/1.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/2.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/3.jpg" /></a>]]>
+      </itunes:summary>
+      <description>
+        <![CDATA[5. 02-2-1_APT使用方式-1 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=THDexB-1uYU"><img src="https://img.youtube.com/vi/THDexB-1uYU/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/0.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/1.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/2.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/3.jpg" /></a>]]>
+      </description>
+      <content:encoded><![CDATA[<pre>5. 02-2-1_APT使用方式-1 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務<br />
+<a href="https://www.youtube.com/watch?v=THDexB-1uYU"><img src="https://img.youtube.com/vi/THDexB-1uYU/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/0.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/1.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/2.jpg" />
+<img src="https://img.youtube.com/vi/THDexB-1uYU/3.jpg" /></a></pre>]]></content:encoded>
+      <itunes:image href="https://img.youtube.com/vi/THDexB-1uYU/maxresdefault.jpg"/>
+      <enclosure url="https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-THDexB-1uYU.mp3" type="audio/mpeg" length="683" />
+      <itunes:duration>683</itunes:duration>
+      <guid isPermaLink="false">https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-THDexB-1uYU.mp3</guid>
+      <pubDate>2020-12-25</pubDate>
+    </item><item>
+      <title><![CDATA[12.24]6. 02-2-2_APT使用方式-2 ewantvideo]]></title>
+      <itunes:title><![CDATA[12.24]6. 02-2-2_APT使用方式-2 ewantvideo]]></itunes:title>
+      <itunes:author><![CDATA[Unix / Linux 作業系統實務]]></itunes:author>
+      <itunes:summary>
+        <![CDATA[6. 02-2-2_APT使用方式-2 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=xZ6bRyFNDxc"><img src="https://img.youtube.com/vi/xZ6bRyFNDxc/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/0.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/1.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/2.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/3.jpg" /></a>]]>
+      </itunes:summary>
+      <description>
+        <![CDATA[6. 02-2-2_APT使用方式-2 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務
+<a href="https://www.youtube.com/watch?v=xZ6bRyFNDxc"><img src="https://img.youtube.com/vi/xZ6bRyFNDxc/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/0.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/1.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/2.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/3.jpg" /></a>]]>
+      </description>
+      <content:encoded><![CDATA[<pre>6. 02-2-2_APT使用方式-2 ewantvideo
+
+https://www.youtube.com/watch?v=fsZpBnEIJfE
+Unix / Linux 作業系統實務<br />
+<a href="https://www.youtube.com/watch?v=xZ6bRyFNDxc"><img src="https://img.youtube.com/vi/xZ6bRyFNDxc/maxresdefault.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/0.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/1.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/2.jpg" />
+<img src="https://img.youtube.com/vi/xZ6bRyFNDxc/3.jpg" /></a></pre>]]></content:encoded>
+      <itunes:image href="https://img.youtube.com/vi/xZ6bRyFNDxc/maxresdefault.jpg"/>
+      <enclosure url="https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-xZ6bRyFNDxc.mp3" type="audio/mpeg" length="731" />
+      <itunes:duration>731</itunes:duration>
+      <guid isPermaLink="false">https://democwise2016.github.io/action-MOOC-Podcast/fm-unix-linux-operating-system-practice-ub_fsZpBnEIJfE/20171207-xZ6bRyFNDxc.mp3</guid>
+      <pubDate>2020-12-24</pubDate>
+    </item></channel>
+</rss>
