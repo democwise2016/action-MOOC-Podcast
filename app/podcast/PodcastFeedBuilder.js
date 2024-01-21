@@ -189,7 +189,11 @@ ${channelDescription}`
           var originalDate = new Date(item.date)
 
           // Subtract one day
-          originalDate.setDate(originalDate.getDate() - (numbering) * 3);
+          originalDate.setFullYear(2020);
+          originalDate.setMonth(11);
+          originalDate.setDate(30);
+          
+          originalDate.setDate(originalDate.getDate() - (numbering));
 
           var year = originalDate.getFullYear();
           var month = (originalDate.getMonth() + 1).toString().padStart(2, '0');
