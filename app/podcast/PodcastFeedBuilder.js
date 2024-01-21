@@ -179,6 +179,29 @@ ${channelDescription}`
       
       let title = item.title
 
+      // =================================================================
+      // 根據標題的數字來調整
+      // console.log({title}, title.indexOf('. '))
+      if (title.indexOf('. ') > 0) {
+        let numbering = Number(title.slice(0, title.indexOf('.')))
+        // console.log({numbering})
+        if (isNaN(numbering) === false) {
+          var originalDate = new Date(item.date)
+
+          // Subtract one day
+          originalDate.setDate(originalDate.getDate() - (numbering) * 3);
+
+          var year = originalDate.getFullYear();
+          var month = (originalDate.getMonth() + 1).toString().padStart(2, '0');
+          var day = originalDate.getDate().toString().padStart(2, '0');
+
+          item.date = year + '-' + month + '-' + day;
+        }
+        // console.log(item.date)
+      }
+
+      // =================================================================
+
       if (item.date[19] === '-') {
         item.date = item.date.slice(0, 19) + '.000Z'
       }
@@ -189,7 +212,8 @@ ${channelDescription}`
 
       let d = moment(item.date).format('M.D')
       title = '' + d + ']' + title
-      
+      // console.log({title})
+
       output.push(`<item>
       <title><![CDATA[${title}]]></title>
       <itunes:title><![CDATA[${title}]]></itunes:title>
