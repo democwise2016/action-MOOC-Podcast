@@ -32,7 +32,7 @@ module.exports = async function (feedURL, options = {}) {
         })
       }
 
-      console.log(output)
+      // console.log(output)
     }
 
 
