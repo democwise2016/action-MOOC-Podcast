@@ -15,7 +15,7 @@ module.exports = function () {
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>ACTION-RSS-UT</title>
+  <title>action-MOOC-Podcast</title>
 </head>
 <body>
 <ol>
