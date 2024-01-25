@@ -54,6 +54,8 @@ module.exports = async function (videoID, output, options = {}) {
 
     let url = `https://www.yo` + `ut` + `ube.com/watch?v=` + videoID
 
+
+    fs.writeFileSync(`/app/tmp/GetHTML.txt`, (new Date()).getTime() + '', 'utf8') 
     console.log(`[DOWNLOAD] Start \t${url}` + '\t' + output + '\t' + (new Date()).toISOString())
 
 
