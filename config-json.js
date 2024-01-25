@@ -10,7 +10,6 @@ let CONFIG = {
   newArrialMax: 500000,
   maxDownloadItems: 1000000,
   maxExcutionMinutes: 15,
-
 }
 
 // let test = '1780'
