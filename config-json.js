@@ -14,11 +14,10 @@ let CONFIG = {
 }
 
 // let test = '1780'
-
 // CONFIG.publicURL = `https://dangerous-lizard-99.telebit.io/`
-// CONFIG.titleAppend = '[RSS+] 20230827-' + test
-// CONFIG.idAppend = '20230827-' + test
-// CONFIG.maxDownloadItemPerFeed = 3
+// CONFIG.titleAppend = '[MC+] 20240125-' + test
+// CONFIG.idAppend = '20240125-' + test
+// CONFIG.maxDownloadItemPerFeed = 100
 // CONFIG.debug = true
 
 module.exports = CONFIG
