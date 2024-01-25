@@ -9,7 +9,7 @@ let CONFIG = {
   maxDownloadFeed: 5000000,
   newArrialMax: 500000,
   maxDownloadItems: 1000000,
-  maxExcutionMinutes: 10,
+  maxExcutionMinutes: 15,
 
 }
 
