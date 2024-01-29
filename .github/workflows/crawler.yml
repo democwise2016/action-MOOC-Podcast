@@ -135,6 +135,11 @@ jobs:
       #     rm -rf output/*/0*
       #     rm -rf output/*/1*
 
+      - name: Rename
+        run: |
+          mv output/western-humanities-classics-and-humanistic-thinking-ub_94u11jAET48.rss output/western-humanities-classics-and-humanistic-thinking-0130-ub_94u11jAET48.rss
+          mv output/western-humanities-classics-and-humanistic-thinking-ub_94u11jAET48 output/western-humanities-classics-and-humanistic-thinking-0130-ub_94u11jAET48
+
       - name: Main
         run: |
           docker-compose up
