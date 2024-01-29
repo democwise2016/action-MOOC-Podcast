@@ -51,7 +51,7 @@ module.exports = function () {
       homepageURL = homepageURL[0].url
     }
     body.push(`<li>
-      <button type="button" onclick="copyPlainString('${outputFeedURL}');this.style.color='red';">COPY</button>
+      <button type="button" style="font-size: 3rem" onclick="copyPlainString('${outputFeedURL}');this.style.color='red';">COPY</button>
       <a href="${outputFeedURL}" target="_blank">${title}</a>
       (<a href="${homepageURL}" target="_blank">source</a>)
     </li>`)
