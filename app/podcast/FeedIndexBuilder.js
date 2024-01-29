@@ -16,6 +16,19 @@ module.exports = function () {
 <head>
   <meta charset="UTF-8">
   <title>action-MOOC-Podcast</title>
+  <script>
+  function copyPlainString (text) {
+    if (!navigator.clipboard) {
+      this.fallbackCopyTextToClipboard(text);
+      return;
+    }
+    navigator.clipboard.writeText(text).then(function () {
+      //console.log('Async: Copying to clipboard was successful!');
+    }, function (err) {
+      //console.error('Async: Could not copy text: ', err);
+    });
+  }
+  </script>
 </head>
 <body>
 <ol>
@@ -38,6 +51,7 @@ module.exports = function () {
       homepageURL = homepageURL[0].url
     }
     body.push(`<li>
+      <button type="button" onclick="copyPlainString('${outputFeedURL}');this.style.color='red';">COPY</button>
       <a href="${outputFeedURL}" target="_blank">${title}</a>
       (<a href="${homepageURL}" target="_blank">source</a>)
     </li>`)
