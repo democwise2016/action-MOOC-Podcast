@@ -1,5 +1,6 @@
 const UBMp3Downloader = require('./UBMp3Downloader.js')
 const ShellSpawn = require('./../../../lib/ShellSpawn.js')
+const fs = require('fs')
 
 async function getOptions (options = {}) {
 
