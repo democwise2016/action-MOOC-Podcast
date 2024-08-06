@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       # ----------------------------------------------------------------
-      
+
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
@@ -69,13 +69,13 @@ jobs:
 
       # ----------------------------------------------------------------
 
-      # - name: Clean Cache
-      #   run: |
-      #     rm -rf /output/*
-      #     rm -rf /cache/*
-      #     docker rmi -f $(docker images -aq)
-      #     docker network prune -f
-      #     docker volume prune -f
+      - name: Clean Cache
+        run: |
+          rm -rf /output/* || true
+          rm -rf /cache/* || true
+          docker rmi -f $(docker images -aq) || true
+          docker network prune -f || true
+          docker volume prune -f || true
 
       # - name: Clean Cache node-cache.sqlite
       #   run: |
@@ -142,8 +142,8 @@ jobs:
 
       - name: Main
         run: |
-          bash ./install_docker_compose.sh
-          docker-compose up --abort-on-container-exit
+          bash ./action/install_docker_compose.sh
+          docker-compose up
 
       # ----------------------------------------------------------------
 
